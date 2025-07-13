@@ -1,0 +1,45 @@
+.modal {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.modal h2 {
+  margin-bottom: 1.2rem;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal input {
+  padding: 8px 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.modal button {
+  padding: 8px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.modal button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+}
+
+.modal button:not([type="submit"]) {
+  background-color: #dc3545;
+  color: white;
+}
